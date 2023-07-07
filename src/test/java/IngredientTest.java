@@ -10,9 +10,9 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class IngredientTest {
-    private final String NAME = "Мясо бессмертных моллюсков Protostomia";
-    private final float PRICE = 1337;
-    private IngredientType ingredientType;
+    private static final String NAME = "Мясо бессмертных моллюсков Protostomia";
+    private static final float PRICE = 1337;
+    private final IngredientType ingredientType;
 
     public IngredientTest(IngredientType ingredientType) {
         this.ingredientType = ingredientType;

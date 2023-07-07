@@ -3,8 +3,8 @@ import org.junit.Test;
 import praktikum.Bun;
 
 public class BunTest {
-    private final String NAME = "Флюоресцентная булка R2-D3";
-    private final float PRICE = 988;
+    private static final String NAME = "Флюоресцентная булка R2-D3";
+    private static final float PRICE = 988;
 
     @Test
     public void getNameReturnsName() {
